@@ -236,3 +236,5 @@ More info in: https://wasmcloud.com/docs/kubernetes/#how-we-run-webassembly-on-k
 Important note: 
 kubernetes = infrastructure level (manages the hosts)
 wasmcloud = application level (manages the components, providers, ..)
+
+What does the wasmcloud-operator do? See: https://wasmcloud.com/docs/deployment/k8s/#platform-and-operator

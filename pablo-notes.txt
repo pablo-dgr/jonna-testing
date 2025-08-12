@@ -207,3 +207,26 @@ docker stop redis
 	
 	open dashboard in browser:
 	http://localhost:3030/
+
+
+--- wasmcloud operator for kubernetes ---
+
+(https://wasmcloud.com/docs/kubernetes/)
+
+See git repo: https://github.com/wasmCloud/wasmcloud-operator
+
+Video recap:
+
+They added an examples folder with a quickstart: https://github.com/wasmCloud/wasmcloud-operator/tree/main/examples/quickstart
+Shows how to set up wasmcloud operator in a brand new kubernetes cluster
+
+Using 'helm':
+
+1. setup NATS (https://wasmcloud.com/docs/ecosystem/nats/) in the cluster
+2. setup WADM (https://wasmcloud.com/docs/ecosystem/wadm/) in the cluster
+3. setup wasmcloud operator in the cluster
+	--> then we can install our wasmcloud apps
+
+4. setup a wasmcloud host in the cluster (using yaml file)
+
+5. now you can deploy apps with their wadl.yaml configs without having to use 'wash', instead using 'kubectl apply -f xxxx.yml'

@@ -230,3 +230,9 @@ Using 'helm':
 4. setup a wasmcloud host in the cluster (using yaml file)
 
 5. now you can deploy apps with their wadl.yaml configs without having to use 'wash', instead using 'kubectl apply -f xxxx.yml'
+
+More info in: https://wasmcloud.com/docs/kubernetes/#how-we-run-webassembly-on-kubernetes
+
+Important note: 
+kubernetes = infrastructure level (manages the hosts)
+wasmcloud = application level (manages the components, providers, ..)

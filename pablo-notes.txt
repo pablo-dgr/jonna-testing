@@ -241,3 +241,15 @@ What does the wasmcloud-operator do? It sits between these two levels.
 More info, see: https://wasmcloud.com/docs/deployment/k8s/#platform-and-operator
 
 The wasmcloud-operator project is a rust project which outputs a binary executable file. Not a webassembly module.
+
+
+--- Running on Edge ---
+
+Link to case study for running wasmcloud on Edge:
+https://wasmcloud.com/blog/2024-10-22-webassembly-adoption-telco-manufacturing-tech/
+
+See schema:
+https://wasmcloud.com/blog/2024-10-22-webassembly-adoption-telco-manufacturing-tech/#how-can-wasm-benefit-heavy-industry
+
+Full source article:
+https://www.cncf.io/blog/2024/08/23/wasmcloud-on-the-factory-floor-efficient-and-secure-processing-of-high-velocity-machine-data/
